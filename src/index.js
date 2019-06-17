@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Sider from "./sider.js";
 import Header from "./header.js";
+import About from "./about.js";
 
 import "./styles.css";
 
@@ -13,6 +14,7 @@ function App() {
           <Sider />
           <div className="col-md-10 main-page text-center">
             <Header />
+            <About />
           </div>
         </div>
       </div>
