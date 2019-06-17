@@ -1,0 +1,11 @@
+.header {
+  height: 200px;
+  background-color: #3c3c3c;
+}
+
+.header h2 {
+  line-height: 25px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: auto;
+}
