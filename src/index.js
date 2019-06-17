@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Sider from "./sider.js";
 import Header from "./header.js";
 import About from "./about.js";
+import Experience from "./experience.js";
 
 import "./styles.css";
 
@@ -15,6 +16,7 @@ function App() {
           <div className="col-md-10 main-page text-center">
             <Header />
             <About />
+            <Experience />
           </div>
         </div>
       </div>
