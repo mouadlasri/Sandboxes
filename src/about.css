@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.about-text {
+.about-section {
   height: 400px;
   border: 1px solid purple;
 }
@@ -11,4 +11,19 @@
 .about-image {
   height: 400px;
   border: 1px solid brown;
+}
+
+.about-text {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20%;
+}
+
+.about-container {
+  text-align: center;
+  height: 100%;
+}
+
+.about-button {
 }

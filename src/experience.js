@@ -4,8 +4,18 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="experience">
-      <img src="https://via.placeholder.com/728x90.png" alt="placeholder" />
+    <div className="experience container-fluid">
+      <div className="experience-group">
+        <div className=" box">
+          <p>Box 1</p>
+        </div>
+        <div className=" box">
+          <p>Box 2</p>
+        </div>
+        <div className="box">
+          <p>Box 3</p>
+        </div>
+      </div>
     </div>
   );
 };
