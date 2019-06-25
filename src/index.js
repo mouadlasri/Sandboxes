@@ -4,6 +4,7 @@ import Sider from "./sider.js";
 import Header from "./header.js";
 import About from "./about.js";
 import Experience from "./experience.js";
+import Separator from "./separator";
 
 import "./styles.css";
 
@@ -15,7 +16,6 @@ function App() {
           <Sider />
           <div className="col-md-10 main-page text-center">
             <Header />
-            <About />
             <Experience />
           </div>
         </div>
