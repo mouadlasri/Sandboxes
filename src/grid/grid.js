@@ -9,10 +9,10 @@ const Grid = () => {
         <div className="col-md-8 grid">
           <div className="filter-section">
             <button className="btn btn-info btn-filter ">Filter</button>
-            <button className="btn btn-warning btn-filter btn-disabled disabled">
+            <button className="btn btn-warning btn-filter ">
               Data Analysis
             </button>
-            <button className="btn btn-danger btn-filter btn-disabled disabled">
+            <button className="btn btn-danger btn-filter btn-disabled ">
               Web Development
             </button>
           </div>

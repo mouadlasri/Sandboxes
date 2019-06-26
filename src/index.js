@@ -7,6 +7,7 @@ import Experience from "./experience.js";
 import Separator from "./separator";
 import Testing from "./testing/testing";
 import Grid from "./grid/grid";
+import ContactForm from "./contact/contact";
 
 import "./styles.css";
 
@@ -21,6 +22,7 @@ function App() {
             {/* <Experience /> */}
             <Grid />
             {/* <Testing /> */}
+            <ContactForm />
           </div>
         </div>
       </div>
