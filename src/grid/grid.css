@@ -1,0 +1,31 @@
+.grid {
+  margin: 0 auto;
+  border: 2px solid red;
+  height: 500px;
+}
+
+.centered-grid {
+  height: 500px;
+  margin-top: 50px;
+  border: 2px solid green;
+}
+
+.grid-box {
+  height: 280px;
+  border: 2px solid blue;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-box:hover {
+  transform: scale(1.03);
+}
+
+.filter-section {
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.btn-info {
+  padding-right: 15px;
+  padding-left: 15px;
+}

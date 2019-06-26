@@ -1,0 +1,15 @@
+.centered-content {
+  height: 500px;
+  background-color: #c1c1c1;
+  border: 2px solid blue;
+}
+
+.testing {
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.text-test {
+  float: left;
+  margin-left: 25px;
+}

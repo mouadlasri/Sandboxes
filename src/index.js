@@ -5,6 +5,8 @@ import Header from "./header.js";
 import About from "./about.js";
 import Experience from "./experience.js";
 import Separator from "./separator";
+import Testing from "./testing/testing";
+import Grid from "./grid/grid";
 
 import "./styles.css";
 
@@ -16,7 +18,9 @@ function App() {
           <Sider />
           <div className="col-md-10 main-page text-center">
             <Header />
-            <Experience />
+            {/* <Experience /> */}
+            {/* <Testing /> */}
+            <Grid />
           </div>
         </div>
       </div>
