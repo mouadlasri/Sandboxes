@@ -19,8 +19,8 @@ function App() {
           <div className="col-md-10 main-page text-center">
             <Header />
             {/* <Experience /> */}
-            {/* <Testing /> */}
             <Grid />
+            {/* <Testing /> */}
           </div>
         </div>
       </div>
