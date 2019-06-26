@@ -25,6 +25,7 @@
 
 .grid-box:hover {
   transform: scale(1.03);
+  z-index: 1;
 }
 
 .grid-box-img {
@@ -42,4 +43,22 @@
 .btn-info {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.btn-filter {
+  margin-right: 2px;
+}
+
+.btn-filter:hover {
+  cursor: context-menu;
+}
+
+.data-analysis {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.web-dev {
+  border: 2px solid cyan;
+  border-radius: 5px;
 }
